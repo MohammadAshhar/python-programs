@@ -1,0 +1,7 @@
+number=int(input())
+divisor1=int(input())
+divisor2=int(input())
+if number%divisor1==0 and number%divisor2==0:
+  print("YES")
+else:
+  print("NO")
