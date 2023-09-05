@@ -1,0 +1,4 @@
+days=int(input("enter number of days"))
+week=days//7
+da=days%7
+print(f"{week} weeks and {da} days")
