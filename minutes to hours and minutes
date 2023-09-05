@@ -1,0 +1,4 @@
+minutes=int(input("ENTER NUMBER OF MINUTES"))
+hrs=minutes//60
+minu=minutes%60
+print(f"{hrs} hours and {minu} minutes" )
