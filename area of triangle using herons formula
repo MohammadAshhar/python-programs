@@ -1,0 +1,11 @@
+side1=float(input("enter side 1"))
+side2=float(input("enter side 2"))
+side3=float(input("enter side 3"))
+if side1>=1 and side2>=1 and side3>=1:
+        S=(side1+side2+side3)/2
+        area=(S*(S-side1)*(S-side2)*(S-side3))**0.5
+        print("area using herons formula",area)
+else:
+        print("wrong input")
+
+
