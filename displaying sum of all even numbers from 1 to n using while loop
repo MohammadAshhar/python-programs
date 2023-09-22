@@ -1,0 +1,7 @@
+n=int(input("ENTER ANY NUMBER : "))
+sum=0
+while n!=0:
+        if n%2==0:
+                sum+=n
+        n-=1
+print(f"SUM OF ALL EVEN NUMBERS FROM 1 TO n IS: {sum}")
