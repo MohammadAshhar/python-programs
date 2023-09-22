@@ -1,4 +1,1 @@
-n=int(input("ENTER ANY NUMBER : "))
-while n!=0:
-        print(n,end=",")
-        n-=1
+
