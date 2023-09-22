@@ -1,0 +1,14 @@
+import random
+n=random.randint(0,100)
+nuser=int(input("ENTER ANY NUMBER : "))
+print("RANDOM NUMBER BY THE MACHINE: ",n)
+if nuser==n:
+        print("USER GUESSED")
+        print("GAME OVER")
+else:
+        while n!=nuser:
+                print("YOU GUESSED WRONG! ENTER NUMBER AGAIN!")
+                n=random.randint(0,100)
+                nuser=int(input("ENTER ANY NUMBER : "))
+print("USER GUESSED")
+print("GAME OVER")
