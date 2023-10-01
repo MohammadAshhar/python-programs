@@ -1,0 +1,6 @@
+n=int (input("ENTER ANY NUMBER : "))
+f=1
+while n!=0:
+        f*=n
+        n-=1
+print(f"FACTORIAL OF {n} IS : {f}") 
